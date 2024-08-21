@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+      
+        .wrapper {
+            width: 1089px;
+            margin: 0 auto;
+            background-color: rgb(218, 233, 246);
+            border: 1px red solid;
+        }
+        
+        header {
+            height: 150px;
+            width: 100%;
+            background-color: rgb(218, 255, 183);
+            padding: 20px;
+        
+        }
+
+        nav {
+            height: 50px;
+            width: 100%;
+            background-color: #c2f0ff;
+            line-height: 50px;
+            border-top: 1px red solid;
+            border-bottom: 1px red solid;
+        }
+
+        #content {
+            display: grid;
+            grid-template-columns: 60% 40%;
+            gap: 10px;
+            height: 600px;
+            width: 100%;
+            background-color: rgb(192, 223, 255);
+            padding: 10px;
+
+        }
+        
+        #ct1{
+            background-color: rgb(249, 186, 255);
+            padding: 10px;
+        }
+
+        #ct2{
+            background-color: #f1eba3;
+            padding: 10px;
+        }
+        article{
+            background-color: rgb(235, 170, 214);
+            margin-bottom: 10px;
+            height: 45%;
+        }
+        aside section {
+            background-color: hsl(65, 100%, 87%);
+            margin-bottom: 10px;
+            height: 45%;
+        }
+        footer{
+            height: 150px;
+            width:100%;
+            background-color: #ffc5c5;
+            padding: 20px;
+            border-top: 1px red solid;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            Đầu trang
+        </header>
+        <nav>
+            Menu
+        </nav>
+        <div id="content">
+            <section id="ct1">
+                <article>
+                    Bài viết 1
+                </article>
+                <article>
+                    Bài viết 2
+                </article>
+            </section>
+            <aside id="ct2">
+                <section>
+                    Phần phụ 1
+                </section>
+                <section>
+                    Phần phụ 2
+                </section>
+            </aside>
+        </div>
+        <footer>
+            Chân trang
+        </footer>
+    </div>
+</body>
+
+</html>
