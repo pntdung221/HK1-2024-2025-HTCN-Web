@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.ctn-addcss {
+    border: 1px solid blue;
+    margin-top: 20px;
+    width: 700px;
+    padding: 0 5px;
+}
+
+.name-label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-transform: capitalize;
+}

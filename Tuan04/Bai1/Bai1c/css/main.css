@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ctn-addcss {
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 0 0 5px;
+}
+
+table.table {
+    width: 95%;
+    margin: 40px auto;
+}
+
+tbody {
+    height: 300px;
+}
+img {
+    width: 50px;
+}
+
+dl {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+b {
+    padding: 2px 4px;
+}
+tr {
+    vertical-align: middle;
+}
+
+.addcss-active1 {
+    background-color: #91bca0;
+}
+.addcss-active2 {
+    background-color: #d7e3fd;
+}
+.addcss-active3 {
+    background-color: #f8ecd9;
+}

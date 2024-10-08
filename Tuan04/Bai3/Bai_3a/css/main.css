@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+   
+}
+
+.ctn-addcss {
+    width: 600px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
